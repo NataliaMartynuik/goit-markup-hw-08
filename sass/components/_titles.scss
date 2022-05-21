@@ -1,0 +1,47 @@
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+
+    @media screen and (min-width: 1200px) {
+            font-size: 36px;
+            line-height: 1.17;
+        }
+}
+
+.title-works {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.title-team {
+    margin-bottom: 30px;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
+}
+
+.title-client {
+    margin-bottom: 30px;
+    text-align: center;
+    
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        }
+}
+
+ .footer-social__title,
+ .footer-form__title {
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--secondary-color);
+     margin-bottom: 20px;
+
+ }

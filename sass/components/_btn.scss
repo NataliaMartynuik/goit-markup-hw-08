@@ -1,0 +1,39 @@
+.button {
+    display: block;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--blue-text-color);
+    color: var(--secondary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 4px;
+}
+
+.button__hero {
+    margin: 0 auto;
+    padding: 10px 32px;
+}
+
+.button__footer {
+    padding: 10px 62px 10px 29px;
+}
+
+.button__icon--footer {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 10px;
+
+}
+
+ .button-modal {
+     padding: 10px 55px;
+     margin: 0 auto;
+ }
+

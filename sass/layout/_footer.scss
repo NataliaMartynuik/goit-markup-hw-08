@@ -1,0 +1,35 @@
+.footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background-color: var(--header-color);
+    color: var(--secondary-color);
+}
+
+.footer-wrap {
+    display: flex;
+}
+
+.footer-contact {
+    font-style: normal;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-adress {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contact__link {
+     color: rgba(255, 255, 255, 0.6);
+     margin-top: 9px;
+}
+
+.footer-social {
+    margin-left: 70px;
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+ 
