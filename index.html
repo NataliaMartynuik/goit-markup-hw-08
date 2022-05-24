@@ -176,7 +176,9 @@
                 <ul class="works-list list">
                     <li class="works-list__item">
                         <div class="works-list__cards">
-                            <img src="./img/box1.jpg" alt="Фото1_создание сайтов" width="370" height="294">
+                            <img 
+                            srcset="./img/box1.jpg 1x, ./img/box1-2x.jpg 2x "
+                            src="./img/box1.jpg" alt="Фото1_создание сайтов" width="370" height="294">
                             <div class="work-list__toptext">
                                 <p>Десктопные приложения</p>
                             </div>
@@ -184,7 +186,9 @@
                     </li>
                     <li class="works-list__item">
                         <div class="works-list__cards">
-                            <img src="./img/box2.jpg" alt="Фото2_адаптивная верстка" width="370" height="294">
+                            <img 
+                            srcset="./img/box2.jpg 1x, ./img/box2-2x.jpg 2x "
+                            src="./img/box2.jpg" alt="Фото2_адаптивная верстка" width="370" height="294">
                             <div class="work-list__toptext">
                                 <p>Мобильные приложения</p>
                             </div>
@@ -192,7 +196,9 @@
                     </li>
                     <li class="works-list__item">
                         <div class="works-list__cards">
-                            <img src="./img/box3.jpg" alt="Фото3_адаптивная графика" width="370" height="294">
+                            <img 
+                            srcset="./img/box3.jpg 1x, ./img/box3-2x.jpg 2x "
+                            src="./img/box3.jpg" alt="Фото3_адаптивная графика" width="370" height="294">
                             <div class="work-list__toptext">
                                 <p>Дизайнерские решения</p>
                             </div>
@@ -206,7 +212,22 @@
                 <h2 class="title title-team">Наша команда</h2>
                 <ul class="team-list list">
                     <li class="team-list__item">
-                        <img src="./img/man1.jpg" alt="фото члена команды" width="270" height="260">
+                        <picture>
+                    <source srcset="
+                            ./img/man1.jpg 1x,
+                            ./img/man1-2x.jpg 2x" 
+                            media="(min-width: 1200px">
+                    <source srcset="
+                            ./img/man1-tab.jpg 1x,
+                            ./img/man1-tab-2x.jpg 2x" 
+                            media="(min-width: 768px">
+                    <source 
+                            srcset="
+                            ./img/man1-mob.jpg 1x,
+                            ./img/man1-mob-2x.jpg 2x"
+                            media="(min-width: 320px">
+                    <img src="./img/man1-mob-2x.jpg" alt="фото члена команды">
+                        </picture>
                         <p class="team-list__name">Игорь Демьяненко</p>
                         <p class="team-list__toptext">Product Designer</p>
                         <ul class="soc-list list">
@@ -242,7 +263,18 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./img/woman.jpg" alt="фото члена команды" width="270" height="260">
+                            <picture>
+                                <source srcset="
+                                    ./img/woman.jpg 1x,
+                                    ./img/woman-2x.jpg 2x" media="(min-width: 1200px">
+                                <source srcset="
+                                    ./img/woman-tab.jpg 1x,
+                                    ./img/woman-tab-2x.jpg 2x" media="(min-width: 768px">
+                                <source srcset="
+                                    ./img/woman-mob.jpg 1x,
+                                    ./img/woman-mob-2x.jpg 2x" media="(min-width: 320px">
+                                <img src="./img/woman-mob-2x.jpg" alt="фото члена команды">
+                            </picture>
                         <p class="team-list__name">Ольга Репина</p>
                         <p class="team-list__toptext">Frontend Developer</p>
                         <ul class="soc-list list">
@@ -278,8 +310,18 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./img/man2.jpg" alt="фото члена команды" width="270" height="260">
-                        <p class="team-list__name">Николай Тарасов</p>
+                        <picture>
+                            <source srcset="
+                                ./img/man2.jpg 1x,
+                                ./img/man2-2x.jpg 2x" media="(min-width: 1200px">
+                            <source srcset="
+                                ./img/man2-tab.jpg 1x,
+                                ./img/man2-tab-2x.jpg 2x" media="(min-width: 768px">
+                            <source srcset="
+                                ./img/man2-mob.jpg 1x,
+                                ./img/man2-mob-2x.jpg 2x" media="(min-width: 320px">
+                            <img src="./img/man2-mob-2x.jpg" alt="фото члена команды">
+                        </picture>                        <p class="team-list__name">Николай Тарасов</p>
                         <p class="team-list__toptext">Marketing</p>
                         <ul class="soc-list list">
                             <li class="soc-list__item">
@@ -314,8 +356,18 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./img/man1.jpg" alt="фото члена команды" width="270" height="260">
-                        <p class="team-list__name">Михаил Ермаков</p>
+                        <picture>
+                            <source srcset="
+                                ./img/man3.jpg 1x,
+                                ./img/man3-2x.jpg 2x" media="(min-width: 1200px">
+                            <source srcset="
+                                ./img/man3-tab.jpg 1x,
+                                ./img/man3-tab-2x.jpg 2x" media="(min-width: 768px">
+                            <source srcset="
+                                ./img/man3-mob.jpg 1x,
+                                ./img/man3-mob-2x.jpg 2x" media="(min-width: 320px">
+                            <img src="./img/man3-mob-2x.jpg" alt="фото члена команды">
+                        </picture>                        <p class="team-list__name">Михаил Ермаков</p>
                         <p class="team-list__toptext">UI Designer</p>
                         <ul class="soc-list list">
                             <li class="soc-list__item">
@@ -401,8 +453,9 @@
             </div>
         </section> 
     </main>
-    <!-- <footer class="footer">
+     <footer class="footer">
         <div class="container footer-wrap">
+            <div class="footer-contact-wrap">
             <div class="footer-adress">
                 <a class="logo logo__footer " href=""><span class="logo__text">Web</span>Studio</a>
                 <address class="footer-contact">
@@ -444,7 +497,7 @@
                     </li>
 
                 </ul>
-            </div>
+            </div> </div>
             <div class="footer-form">
                 <p class="footer-form__title">Подпишитесь на рассылку</p>
                 <form class="form">
@@ -457,7 +510,7 @@
                 </form>
             </div>
         </div>
-    </footer> -->
+    </footer> 
     <div class="backdrop is_hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal_close_btn" data-modal-close>

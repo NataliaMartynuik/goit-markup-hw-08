@@ -43,5 +43,12 @@
      text-transform: uppercase;
      color: var(--secondary-color);
      margin-bottom: 20px;
+     text-align: center;
 
  }
+
+.footer-form__title {
+    @media screen and (max-width: 767px) {
+        margin-top: 34px;
+    }
+}
