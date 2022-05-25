@@ -1,6 +1,9 @@
 .header {
     border-bottom: 1px solid #ECECEC;
-    position: relative;
+   
+    .container {
+        position: relative;
+    }
 }
 
 .navigation, .header-contact {
@@ -12,7 +15,6 @@
 
 .button-menu__open, .button-menu__close {
     position: absolute;
-    top: 10px;
     right: 15px;
     cursor: pointer;
     width: 40px;
@@ -22,7 +24,8 @@
     padding: 0;
     align-items: center;
     text-align: center;
-
+  
+   
     @media screen and (min-width: 768px) {
         display: none;
     }
@@ -80,7 +83,8 @@
     }
 }
 
-.mob-menu-list {
+.mob-menu__top{
+    font-weight: 500;
     font-size: 34px;
     line-height: 1.18;
     letter-spacing: 0.02em;
